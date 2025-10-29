@@ -62,8 +62,9 @@ npm install
 
 # Run development server
 npm run dev
+```
 
-🔐 Key Highlights
+## 🔐 Key Highlights
 
 🔑 Role-Based Access Control — Admin, Faculty, Student
 
@@ -75,9 +76,10 @@ npm run dev
 
 🧩 Secure & Scalable — Firestore rules, Firebase authentication
 
-🧠 Skills Used
+```🧠 Skills Used
 
 Next.js · React.js · TypeScript · Firebase · Firestore · Tailwind CSS · REST APIs · Node.js · Role-Based Access Control · Vercel Deployment
+```
 
 ✨ Developed by Shailesh Suryawanshi
 Built with ❤️ using Next.js, TypeScript, and Firebase.
