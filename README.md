@@ -78,7 +78,7 @@ npm run dev
 
 ```🧠 Skills Used
 
-Next.js · React.js · TypeScript · Firebase · Firestore · Tailwind CSS · REST APIs · Node.js · Role-Based Access Control · Vercel Deployment
+Next.js · React.js · TypeScript · Firebase · Firestore · Tailwind CSS · REST APIs · Node.js · Role-Based Access Control
 ```
 
 ✨ Developed by Shailesh Suryawanshi
