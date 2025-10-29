@@ -1,0 +1,6 @@
+name,designation,emailID,subject,E_ID,E_password
+Dr. John Smith,Professor,john.smith@pict.edu,Computer Science,EMP001,pass123
+Dr. Jane Doe,Associate Professor,jane.doe@pict.edu,Mathematics,EMP002,pass456
+Prof. Mike Johnson,Assistant Professor,mike.johnson@pict.edu,Data Science,EMP003,pass789
+Dr. Sarah Wilson,Professor,sarah.wilson@pict.edu,Database Management,EMP004,pass101
+Prof. David Brown,Assistant Professor,david.brown@pict.edu,Web Development,EMP005,pass202

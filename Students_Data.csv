@@ -1,0 +1,161 @@
+studentName,studyingYear,rollNo,division,batch,electiveSubject,sId,sPassword,email
+Riyaan,Third Year (TE),32001,5,K5,Fundamental of Java Programming,ET2K23001,ET2K23001,ET2K23001@ms.pict.edu
+Yash,Third Year (TE),32002,5,K5,Fundamental of Java Programming,ET2K23002,ET2K23002,ET2K23002@ms.pict.edu
+Chirag,Third Year (TE),32003,5,K5,Fundamental of Java Programming,ET2K23003,ET2K23003,ET2K23003@ms.pict.edu
+Aditya,Third Year (TE),32004,5,K5,Fundamental of Java Programming,ET2K23004,ET2K23004,ET2K23004@ms.pict.edu
+Neha,Third Year (TE),32005,5,K5,Fundamental of Java Programming,ET2K23005,ET2K23005,ET2K23005@ms.pict.edu
+Deeksha,Third Year (TE),32006,5,K5,Fundamental of Java Programming,ET2K23006,ET2K23006,ET2K23006@ms.pict.edu
+Kunal,Third Year (TE),32007,5,K5,Fundamental of Java Programming,ET2K23007,ET2K23007,ET2K23007@ms.pict.edu
+Kavya,Third Year (TE),32008,5,K5,Fundamental of Java Programming,ET2K23008,ET2K23008,ET2K23008@ms.pict.edu
+Rajesh,Third Year (TE),32009,5,K5,Fundamental of Java Programming,ET2K23009,ET2K23009,ET2K23009@ms.pict.edu
+Aarush,Third Year (TE),32010,5,K5,Fundamental of Java Programming,ET2K23010,ET2K23010,ET2K23010@ms.pict.edu
+Esha,Third Year (TE),32011,5,K5,Fundamental of Java Programming,ET2K23011,ET2K23011,ET2K23011@ms.pict.edu
+Keshav,Third Year (TE),32012,5,K5,Fundamental of Java Programming,ET2K23012,ET2K23012,ET2K23012@ms.pict.edu
+Aditya,Third Year (TE),32013,5,K5,Fundamental of Java Programming,ET2K23013,ET2K23013,ET2K23013@ms.pict.edu
+Mihir,Third Year (TE),32014,5,K5,Fundamental of Java Programming,ET2K23014,ET2K23014,ET2K23014@ms.pict.edu
+Nikhil,Third Year (TE),32015,5,K5,Fundamental of Java Programming,ET2K23015,ET2K23015,ET2K23015@ms.pict.edu
+Simran,Third Year (TE),32016,5,K5,Fundamental of Java Programming,ET2K23016,ET2K23016,ET2K23016@ms.pict.edu
+Laksh,Third Year (TE),32017,5,K5,Fundamental of Java Programming,ET2K23017,ET2K23017,ET2K23017@ms.pict.edu
+Payal,Third Year (TE),32018,5,K5,Fundamental of Java Programming,ET2K23018,ET2K23018,ET2K23018@ms.pict.edu
+Vihaan,Third Year (TE),32019,5,K5,Fundamental of Java Programming,ET2K23019,ET2K23019,ET2K23019@ms.pict.edu
+Aman,Third Year (TE),32020,5,K5,Fundamental of Java Programming,ET2K23020,ET2K23020,ET2K23020@ms.pict.edu
+Laksh,Third Year (TE),32021,5,L5,Computer Networks,ET2K23021,ET2K23021,ET2K23021@ms.pict.edu
+Asha,Third Year (TE),32022,5,L5,Computer Networks,ET2K23022,ET2K23022,ET2K23022@ms.pict.edu
+Rahul,Third Year (TE),32023,5,L5,Computer Networks,ET2K23023,ET2K23023,ET2K23023@ms.pict.edu
+Riyaan,Third Year (TE),32024,5,L5,Computer Networks,ET2K23024,ET2K23024,ET2K23024@ms.pict.edu
+Reyansh,Third Year (TE),32025,5,L5,Computer Networks,ET2K23025,ET2K23025,ET2K23025@ms.pict.edu
+Rachit,Third Year (TE),32026,5,L5,Computer Networks,ET2K23026,ET2K23026,ET2K23026@ms.pict.edu
+Asha,Third Year (TE),32027,5,L5,Computer Networks,ET2K23027,ET2K23027,ET2K23027@ms.pict.edu
+Abhinav,Third Year (TE),32028,5,L5,Computer Networks,ET2K23028,ET2K23028,ET2K23028@ms.pict.edu
+Myra,Third Year (TE),32029,5,L5,Computer Networks,ET2K23029,ET2K23029,ET2K23029@ms.pict.edu
+Bhavya,Third Year (TE),32030,5,L5,Computer Networks,ET2K23030,ET2K23030,ET2K23030@ms.pict.edu
+Smriti,Third Year (TE),32031,5,L5,Computer Networks,ET2K23031,ET2K23031,ET2K23031@ms.pict.edu
+Anika,Third Year (TE),32032,5,L5,Computer Networks,ET2K23032,ET2K23032,ET2K23032@ms.pict.edu
+Reyansh,Third Year (TE),32033,5,L5,Computer Networks,ET2K23033,ET2K23033,ET2K23033@ms.pict.edu
+Raj,Third Year (TE),32034,5,L5,Computer Networks,ET2K23034,ET2K23034,ET2K23034@ms.pict.edu
+Aryan,Third Year (TE),32035,5,L5,Computer Networks,ET2K23035,ET2K23035,ET2K23035@ms.pict.edu
+Asha,Third Year (TE),32036,5,L5,Computer Networks,ET2K23036,ET2K23036,ET2K23036@ms.pict.edu
+Smriti,Third Year (TE),32037,5,L5,Computer Networks,ET2K23037,ET2K23037,ET2K23037@ms.pict.edu
+Arjun,Third Year (TE),32038,5,L5,Computer Networks,ET2K23038,ET2K23038,ET2K23038@ms.pict.edu
+Reyansh,Third Year (TE),32039,5,L5,Computer Networks,ET2K23039,ET2K23039,ET2K23039@ms.pict.edu
+Neha,Third Year (TE),32040,5,L5,Computer Networks,ET2K23040,ET2K23040,ET2K23040@ms.pict.edu
+Chirag,Third Year (TE),32041,5,M5,Computer Networks,ET2K23041,ET2K23041,ET2K23041@ms.pict.edu
+Vivaan,Third Year (TE),32042,5,M5,Computer Networks,ET2K23042,ET2K23042,ET2K23042@ms.pict.edu
+Amanpreet,Third Year (TE),32043,5,M5,Computer Networks,ET2K23043,ET2K23043,ET2K23043@ms.pict.edu
+Divya,Third Year (TE),32044,5,M5,Computer Networks,ET2K23044,ET2K23044,ET2K23044@ms.pict.edu
+Sai,Third Year (TE),32045,5,M5,Computer Networks,ET2K23045,ET2K23045,ET2K23045@ms.pict.edu
+Reema,Third Year (TE),32046,5,M5,Computer Networks,ET2K23046,ET2K23046,ET2K23046@ms.pict.edu
+Karan,Third Year (TE),32047,5,M5,Computer Networks,ET2K23047,ET2K23047,ET2K23047@ms.pict.edu
+Sai,Third Year (TE),32048,5,M5,Computer Networks,ET2K23048,ET2K23048,ET2K23048@ms.pict.edu
+Rachita,Third Year (TE),32049,5,M5,Computer Networks,ET2K23049,ET2K23049,ET2K23049@ms.pict.edu
+Aarush,Third Year (TE),32050,5,M5,Computer Networks,ET2K23050,ET2K23050,ET2K23050@ms.pict.edu
+Varun,Third Year (TE),32051,5,M5,Computer Networks,ET2K23051,ET2K23051,ET2K23051@ms.pict.edu
+Abhinav,Third Year (TE),32052,5,M5,Computer Networks,ET2K23052,ET2K23052,ET2K23052@ms.pict.edu
+Karan,Third Year (TE),32053,5,M5,Computer Networks,ET2K23053,ET2K23053,ET2K23053@ms.pict.edu
+Ishita,Third Year (TE),32054,5,M5,Computer Networks,ET2K23054,ET2K23054,ET2K23054@ms.pict.edu
+Gaurav,Third Year (TE),32055,5,M5,Computer Networks,ET2K23055,ET2K23055,ET2K23055@ms.pict.edu
+Krishna,Third Year (TE),32056,5,M5,Computer Networks,ET2K23056,ET2K23056,ET2K23056@ms.pict.edu
+Neha,Third Year (TE),32057,5,M5,Computer Networks,ET2K23057,ET2K23057,ET2K23057@ms.pict.edu
+Karan,Third Year (TE),32058,5,M5,Computer Networks,ET2K23058,ET2K23058,ET2K23058@ms.pict.edu
+Anjali,Third Year (TE),32059,5,M5,Computer Networks,ET2K23059,ET2K23059,ET2K23059@ms.pict.edu
+Diya,Third Year (TE),32060,5,M5,Computer Networks,ET2K23060,ET2K23060,ET2K23060@ms.pict.edu
+Ishaan,Third Year (TE),32061,5,N5,Computer Networks,ET2K23061,ET2K23061,ET2K23061@ms.pict.edu
+Kabir,Third Year (TE),32062,5,N5,Computer Networks,ET2K23062,ET2K23062,ET2K23062@ms.pict.edu
+Chirag,Third Year (TE),32063,5,N5,Computer Networks,ET2K23063,ET2K23063,ET2K23063@ms.pict.edu
+Aradhya,Third Year (TE),32064,5,N5,Computer Networks,ET2K23064,ET2K23064,ET2K23064@ms.pict.edu
+Aadhya,Third Year (TE),32065,5,N5,Computer Networks,ET2K23065,ET2K23065,ET2K23065@ms.pict.edu
+Karan,Third Year (TE),32066,5,N5,Computer Networks,ET2K23066,ET2K23066,ET2K23066@ms.pict.edu
+Chirag,Third Year (TE),32067,5,N5,Computer Networks,ET2K23067,ET2K23067,ET2K23067@ms.pict.edu
+Aradhya,Third Year (TE),32068,5,N5,Computer Networks,ET2K23068,ET2K23068,ET2K23068@ms.pict.edu
+Vivaan,Third Year (TE),32069,5,N5,Computer Networks,ET2K23069,ET2K23069,ET2K23069@ms.pict.edu
+Ishan,Third Year (TE),32070,5,N5,Computer Networks,ET2K23070,ET2K23070,ET2K23070@ms.pict.edu
+Reyansh,Third Year (TE),32071,5,N5,Computer Networks,ET2K23071,ET2K23071,ET2K23071@ms.pict.edu
+Tejas,Third Year (TE),32072,5,N5,Computer Networks,ET2K23072,ET2K23072,ET2K23072@ms.pict.edu
+Sneha,Third Year (TE),32073,5,N5,Computer Networks,ET2K23073,ET2K23073,ET2K23073@ms.pict.edu
+Ritika,Third Year (TE),32074,5,N5,Computer Networks,ET2K23074,ET2K23074,ET2K23074@ms.pict.edu
+Esha,Third Year (TE),32075,5,N5,Computer Networks,ET2K23075,ET2K23075,ET2K23075@ms.pict.edu
+Rajesh,Third Year (TE),32076,5,N5,Computer Networks,ET2K23076,ET2K23076,ET2K23076@ms.pict.edu
+Rachita,Third Year (TE),32077,5,N5,Computer Networks,ET2K23077,ET2K23077,ET2K23077@ms.pict.edu
+Laksh,Third Year (TE),32078,5,N5,Computer Networks,ET2K23078,ET2K23078,ET2K23078@ms.pict.edu
+Ritika,Third Year (TE),32079,5,N5,Computer Networks,ET2K23079,ET2K23079,ET2K23079@ms.pict.edu
+Saanvi,Third Year (TE),32080,5,N5,Computer Networks,ET2K23080,ET2K23080,ET2K23080@ms.pict.edu
+Pranav,Third Year (TE),32081,6,K6,Computer Networks,ET2K23081,ET2K23081,ET2K23081@ms.pict.edu
+Deeksha,Third Year (TE),32082,6,K6,Computer Networks,ET2K23082,ET2K23082,ET2K23082@ms.pict.edu
+Pari,Third Year (TE),32083,6,K6,Computer Networks,ET2K23083,ET2K23083,ET2K23083@ms.pict.edu
+Saanvi,Third Year (TE),32084,6,K6,Computer Networks,ET2K23084,ET2K23084,ET2K23084@ms.pict.edu
+Riya,Third Year (TE),32085,6,K6,Computer Networks,ET2K23085,ET2K23085,ET2K23085@ms.pict.edu
+Aman,Third Year (TE),32086,6,K6,Computer Networks,ET2K23086,ET2K23086,ET2K23086@ms.pict.edu
+Simran,Third Year (TE),32087,6,K6,Computer Networks,ET2K23087,ET2K23087,ET2K23087@ms.pict.edu
+Anika,Third Year (TE),32088,6,K6,Computer Networks,ET2K23088,ET2K23088,ET2K23088@ms.pict.edu
+Kiara,Third Year (TE),32089,6,K6,Computer Networks,ET2K23089,ET2K23089,ET2K23089@ms.pict.edu
+Harsh,Third Year (TE),32090,6,K6,Computer Networks,ET2K23090,ET2K23090,ET2K23090@ms.pict.edu
+Manav,Third Year (TE),32091,6,K6,Computer Networks,ET2K23091,ET2K23091,ET2K23091@ms.pict.edu
+Kiara,Third Year (TE),32092,6,K6,Computer Networks,ET2K23092,ET2K23092,ET2K23092@ms.pict.edu
+Simran,Third Year (TE),32093,6,K6,Computer Networks,ET2K23093,ET2K23093,ET2K23093@ms.pict.edu
+Reyansh,Third Year (TE),32094,6,K6,Computer Networks,ET2K23094,ET2K23094,ET2K23094@ms.pict.edu
+Chirag,Third Year (TE),32095,6,K6,Computer Networks,ET2K23095,ET2K23095,ET2K23095@ms.pict.edu
+Rajesh,Third Year (TE),32096,6,K6,Computer Networks,ET2K23096,ET2K23096,ET2K23096@ms.pict.edu
+Saanvi,Third Year (TE),32097,6,K6,Computer Networks,ET2K23097,ET2K23097,ET2K23097@ms.pict.edu
+Manish,Third Year (TE),32098,6,K6,Computer Networks,ET2K23098,ET2K23098,ET2K23098@ms.pict.edu
+Reema,Third Year (TE),32099,6,K6,Computer Networks,ET2K23099,ET2K23099,ET2K23099@ms.pict.edu
+Keshav,Third Year (TE),32100,6,K6,Computer Networks,ET2K23100,ET2K23100,ET2K23100@ms.pict.edu
+Adarsh,Third Year (TE),32101,6,L6,Computer Networks,ET2K23101,ET2K23101,ET2K23101@ms.pict.edu
+Smriti,Third Year (TE),32102,6,L6,Computer Networks,ET2K23102,ET2K23102,ET2K23102@ms.pict.edu
+Ira,Third Year (TE),32103,6,L6,Computer Networks,ET2K23103,ET2K23103,ET2K23103@ms.pict.edu
+Riya,Third Year (TE),32104,6,L6,Computer Networks,ET2K23104,ET2K23104,ET2K23104@ms.pict.edu
+Ishaan,Third Year (TE),32105,6,L6,Computer Networks,ET2K23105,ET2K23105,ET2K23105@ms.pict.edu
+Smriti,Third Year (TE),32106,6,L6,Computer Networks,ET2K23106,ET2K23106,ET2K23106@ms.pict.edu
+Yash,Third Year (TE),32107,6,L6,Computer Networks,ET2K23107,ET2K23107,ET2K23107@ms.pict.edu
+Neel,Third Year (TE),32108,6,L6,Computer Networks,ET2K23108,ET2K23108,ET2K23108@ms.pict.edu
+Arjun,Third Year (TE),32109,6,L6,Computer Networks,ET2K23109,ET2K23109,ET2K23109@ms.pict.edu
+Esha,Third Year (TE),32110,6,L6,Computer Networks,ET2K23110,ET2K23110,ET2K23110@ms.pict.edu
+Vikas,Third Year (TE),32111,6,L6,Computer Networks,ET2K23111,ET2K23111,ET2K23111@ms.pict.edu
+Aisha,Third Year (TE),32112,6,L6,Computer Networks,ET2K23112,ET2K23112,ET2K23112@ms.pict.edu
+Shruti,Third Year (TE),32113,6,L6,Computer Networks,ET2K23113,ET2K23113,ET2K23113@ms.pict.edu
+Aadhya,Third Year (TE),32114,6,L6,Computer Networks,ET2K23114,ET2K23114,ET2K23114@ms.pict.edu
+Priya,Third Year (TE),32115,6,L6,Computer Networks,ET2K23115,ET2K23115,ET2K23115@ms.pict.edu
+Vivaan,Third Year (TE),32116,6,L6,Computer Networks,ET2K23116,ET2K23116,ET2K23116@ms.pict.edu
+Sneha,Third Year (TE),32117,6,L6,Computer Networks,ET2K23117,ET2K23117,ET2K23117@ms.pict.edu
+Deeksha,Third Year (TE),32118,6,L6,Computer Networks,ET2K23118,ET2K23118,ET2K23118@ms.pict.edu
+Kiara,Third Year (TE),32119,6,L6,Computer Networks,ET2K23119,ET2K23119,ET2K23119@ms.pict.edu
+Abhinav,Third Year (TE),32120,6,L6,Computer Networks,ET2K23120,ET2K23120,ET2K23120@ms.pict.edu
+Karan,Third Year (TE),32121,6,M6,Computer Networks,ET2K23121,ET2K23121,ET2K23121@ms.pict.edu
+Neha,Third Year (TE),32122,6,M6,Computer Networks,ET2K23122,ET2K23122,ET2K23122@ms.pict.edu
+Akshay,Third Year (TE),32123,6,M6,Computer Networks,ET2K23123,ET2K23123,ET2K23123@ms.pict.edu
+Simran,Third Year (TE),32124,6,M6,Computer Networks,ET2K23124,ET2K23124,ET2K23124@ms.pict.edu
+Sai,Third Year (TE),32125,6,M6,Computer Networks,ET2K23125,ET2K23125,ET2K23125@ms.pict.edu
+Sai,Third Year (TE),32126,6,M6,Computer Networks,ET2K23126,ET2K23126,ET2K23126@ms.pict.edu
+Ansh,Third Year (TE),32127,6,M6,Computer Networks,ET2K23127,ET2K23127,ET2K23127@ms.pict.edu
+Rohan,Third Year (TE),32128,6,M6,Computer Networks,ET2K23128,ET2K23128,ET2K23128@ms.pict.edu
+Simran,Third Year (TE),32129,6,M6,Computer Networks,ET2K23129,ET2K23129,ET2K23129@ms.pict.edu
+Deeksha,Third Year (TE),32130,6,M6,Computer Networks,ET2K23130,ET2K23130,ET2K23130@ms.pict.edu
+Reyansh,Third Year (TE),32131,6,M6,Computer Networks,ET2K23131,ET2K23131,ET2K23131@ms.pict.edu
+Aarav,Third Year (TE),32132,6,M6,Computer Networks,ET2K23132,ET2K23132,ET2K23132@ms.pict.edu
+Myra,Third Year (TE),32133,6,M6,Computer Networks,ET2K23133,ET2K23133,ET2K23133@ms.pict.edu
+Gaurav,Third Year (TE),32134,6,M6,Computer Networks,ET2K23134,ET2K23134,ET2K23134@ms.pict.edu
+Rohan,Third Year (TE),32135,6,M6,Computer Networks,ET2K23135,ET2K23135,ET2K23135@ms.pict.edu
+Payal,Third Year (TE),32136,6,M6,Computer Networks,ET2K23136,ET2K23136,ET2K23136@ms.pict.edu
+Tanvi,Third Year (TE),32137,6,M6,Computer Networks,ET2K23137,ET2K23137,ET2K23137@ms.pict.edu
+Manav,Third Year (TE),32138,6,M6,Computer Networks,ET2K23138,ET2K23138,ET2K23138@ms.pict.edu
+Adarsh,Third Year (TE),32139,6,M6,Computer Networks,ET2K23139,ET2K23139,ET2K23139@ms.pict.edu
+Riyaan,Third Year (TE),32140,6,M6,Computer Networks,ET2K23140,ET2K23140,ET2K23140@ms.pict.edu
+Sai,Third Year (TE),32141,6,N6,Computer Networks,ET2K23141,ET2K23141,ET2K23141@ms.pict.edu
+Aadhya,Third Year (TE),32142,6,N6,Computer Networks,ET2K23142,ET2K23142,ET2K23142@ms.pict.edu
+Esha,Third Year (TE),32143,6,N6,Computer Networks,ET2K23143,ET2K23143,ET2K23143@ms.pict.edu
+Vihaan,Third Year (TE),32144,6,N6,Computer Networks,ET2K23144,ET2K23144,ET2K23144@ms.pict.edu
+Sai,Third Year (TE),32145,6,N6,Computer Networks,ET2K23145,ET2K23145,ET2K23145@ms.pict.edu
+Amanpreet,Third Year (TE),32146,6,N6,Computer Networks,ET2K23146,ET2K23146,ET2K23146@ms.pict.edu
+Simran,Third Year (TE),32147,6,N6,Computer Networks,ET2K23147,ET2K23147,ET2K23147@ms.pict.edu
+Arnav,Third Year (TE),32148,6,N6,Computer Networks,ET2K23148,ET2K23148,ET2K23148@ms.pict.edu
+Deeksha,Third Year (TE),32149,6,N6,Computer Networks,ET2K23149,ET2K23149,ET2K23149@ms.pict.edu
+Bhavya,Third Year (TE),32150,6,N6,Computer Networks,ET2K23150,ET2K23150,ET2K23150@ms.pict.edu
+Devansh,Third Year (TE),32151,6,N6,Computer Networks,ET2K23151,ET2K23151,ET2K23151@ms.pict.edu
+Kunal,Third Year (TE),32152,6,N6,Computer Networks,ET2K23152,ET2K23152,ET2K23152@ms.pict.edu
+Kunal,Third Year (TE),32153,6,N6,Computer Networks,ET2K23153,ET2K23153,ET2K23153@ms.pict.edu
+Anjali,Third Year (TE),32154,6,N6,Computer Networks,ET2K23154,ET2K23154,ET2K23154@ms.pict.edu
+Tejas,Third Year (TE),32155,6,N6,Computer Networks,ET2K23155,ET2K23155,ET2K23155@ms.pict.edu
+Varun,Third Year (TE),32156,6,N6,Computer Networks,ET2K23156,ET2K23156,ET2K23156@ms.pict.edu
+Myra,Third Year (TE),32157,6,N6,Computer Networks,ET2K23157,ET2K23157,ET2K23157@ms.pict.edu
+Saanvi,Third Year (TE),32158,6,N6,Computer Networks,ET2K23158,ET2K23158,ET2K23158@ms.pict.edu
+Bhavya,Third Year (TE),32159,6,N6,Computer Networks,ET2K23159,ET2K23159,ET2K23159@ms.pict.edu
+Varun,Third Year (TE),32160,6,N6,Computer Networks,ET2K23160,ET2K23160,ET2K23160@ms.pict.edu

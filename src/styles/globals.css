@@ -1,0 +1,356 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-rgb: 15, 23, 42;
+  --background-darker: 2, 6, 23;
+  --text-primary: 255, 255, 255;
+  --text-secondary: 226, 232, 240;
+  --text-muted: 148, 163, 184;
+  --card-bg: 30, 41, 59;
+  --card-border: 51, 65, 85;
+}
+
+@layer base {
+  body {
+    color: rgb(var(--foreground-rgb));
+    background: rgb(var(--background-rgb));
+    background-image: 
+      radial-gradient(circle at top left, rgba(139, 92, 246, 0.08), transparent 40%),
+      radial-gradient(circle at bottom right, rgba(91, 33, 182, 0.08), transparent 40%),
+      linear-gradient(180deg, rgb(var(--background-rgb)) 0%, rgb(var(--background-darker)) 100%);
+    min-height: 100vh;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: rgb(var(--text-primary)) !important;
+    font-weight: 600;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  }
+
+  p {
+    color: rgb(var(--text-secondary)) !important;
+    line-height: 1.625;
+  }
+
+  /* Page containers for better visibility */
+  .page-container {
+    background: rgba(var(--card-bg), 0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(var(--card-border), 0.2);
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Ensure all text is visible */
+  span, label, div, a {
+    color: rgb(var(--text-secondary));
+  }
+
+  /* Input fields */
+  input, textarea, select {
+    background: rgba(var(--card-bg), 0.6) !important;
+    border: 1px solid rgba(var(--card-border), 0.3) !important;
+    color: rgb(var(--text-primary)) !important;
+  }
+
+  input::placeholder, textarea::placeholder {
+    color: rgb(var(--text-muted)) !important;
+  }
+}
+
+@layer utilities {
+  .text-default {
+    color: rgb(var(--text-primary));
+  }
+  
+  .text-secondary {
+    color: rgb(var(--text-secondary));
+  }
+  
+  .text-muted {
+    color: rgb(var(--text-muted));
+  }
+}
+
+@layer components {
+  /* Primary Button */
+  .btn-primary {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    background: linear-gradient(135deg, #a855f7, #9333ea);
+    color: white !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 15px -3px rgba(168, 85, 247, 0.2);
+    text-decoration: none;
+    border: none;
+    font-size: 1rem;
+  }
+
+  .btn-primary:hover {
+    background: linear-gradient(135deg, #9333ea, #7e22ce);
+    box-shadow: 0 20px 25px -5px rgba(168, 85, 247, 0.4);
+    transform: translateY(-2px);
+    color: white !important;
+  }
+
+  .btn-primary:active {
+    transform: translateY(0);
+  }
+
+  /* Outline Button */
+  .btn-outline {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    border: 1px solid rgba(168, 85, 247, 0.5);
+    color: white !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: transparent;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+
+  .btn-outline:hover {
+    border-color: rgba(168, 85, 247, 0.8);
+    background: rgba(168, 85, 247, 0.05);
+    color: white !important;
+  }
+
+  /* Gradient Text */
+  .gradient-text {
+    background: linear-gradient(135deg, #c084fc, #a855f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 600;
+  }
+
+  /* Glass Effect */
+  .glass {
+    backdrop-filter: blur(16px);
+    background-color: rgba(var(--card-bg), 0.4);
+    border: 1px solid rgba(var(--card-border), 0.3);
+    border-bottom-width: 1px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2),
+                0 2px 4px -1px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Card styling for better contrast */
+  .feature-card, .role-card {
+    background: rgba(var(--card-bg), 0.5) !important;
+    border: 1px solid rgba(var(--card-border), 0.4) !important;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  }
+
+  .feature-card:hover, .role-card:hover {
+    background: rgba(var(--card-bg), 0.7) !important;
+    border-color: rgba(139, 92, 246, 0.5) !important;
+  }
+
+  /* Tab Navigation */
+  .tab-nav {
+    display: flex;
+    border-bottom: 1px solid rgba(var(--card-border), 0.3);
+    background: rgba(var(--card-bg), 0.3);
+  }
+
+  .tab-item {
+    padding: 1rem 1.5rem;
+    font-weight: 500;
+    color: rgb(var(--text-secondary));
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+  }
+
+  .tab-item:hover {
+    color: rgb(var(--text-primary));
+    background: rgba(139, 92, 246, 0.1);
+  }
+
+  .tab-item-active {
+    color: rgb(var(--text-primary)) !important;
+    background: rgba(139, 92, 246, 0.2);
+    border-bottom-color: #a855f7;
+  }
+
+  /* Statistics Cards */
+  .stat-card {
+    background: rgba(var(--card-bg), 0.6);
+    border: 1px solid rgba(var(--card-border), 0.4);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    backdrop-filter: blur(12px);
+    transition: all 0.3s ease;
+  }
+
+  .stat-card:hover {
+    background: rgba(var(--card-bg), 0.8);
+    border-color: rgba(139, 92, 246, 0.4);
+    transform: translateY(-2px);
+  }
+
+  .stat-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(var(--text-primary));
+  }
+
+  .stat-label {
+    font-size: 0.875rem;
+    color: rgb(var(--text-muted));
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  /* Cards */
+  .card {
+    background: rgba(var(--card-bg), 0.5);
+    border: 1px solid rgba(var(--card-border), 0.3);
+    border-radius: 1rem;
+    backdrop-filter: blur(12px);
+    transition: all 0.3s ease;
+  }
+
+  .card:hover {
+    background: rgba(var(--card-bg), 0.7);
+    border-color: rgba(139, 92, 246, 0.3);
+  }
+
+  /* Badges */
+  .badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.375rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .badge-success {
+    background: rgba(34, 197, 94, 0.2);
+    color: rgb(34, 197, 94);
+    border: 1px solid rgba(34, 197, 94, 0.3);
+  }
+
+  .badge-info {
+    background: rgba(59, 130, 246, 0.2);
+    color: rgb(59, 130, 246);
+    border: 1px solid rgba(59, 130, 246, 0.3);
+  }
+
+  .badge-warning {
+    background: rgba(245, 158, 11, 0.2);
+    color: rgb(245, 158, 11);
+    border: 1px solid rgba(245, 158, 11, 0.3);
+  }
+
+  /* Buttons */
+  .btn-success {
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+    color: white !important;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .btn-success:hover {
+    background: linear-gradient(135deg, #16a34a, #15803d);
+    transform: translateY(-1px);
+  }
+
+  .btn-danger {
+    background: linear-gradient(135deg, #ef4444, #dc2626);
+    color: white !important;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .btn-danger:hover {
+    background: linear-gradient(135deg, #dc2626, #b91c1c);
+    transform: translateY(-1px);
+  }
+
+  /* Loading Spinner */
+  .loading-spinner {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 4px solid rgba(168, 85, 247, 0.2);
+    border-top-color: #a855f7;
+    animation: spin 1s linear infinite;
+  }
+}
+
+@layer utilities {
+  .hover-lift {
+    transition: transform 0.3s ease;
+  }
+
+  .hover-lift:hover {
+    transform: translateY(-0.125rem);
+  }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes fadeIn {
+  from { 
+    opacity: 0; 
+    transform: translateY(20px); 
+  }
+  to { 
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
+
+@keyframes bounceIn {
+  0% { 
+    opacity: 0; 
+    transform: scale(0.3); 
+  }
+  50% { 
+    opacity: 0.9; 
+    transform: scale(1.1); 
+  }
+  80% { 
+    opacity: 1; 
+    transform: scale(0.89); 
+  }
+  100% { 
+    opacity: 1; 
+    transform: scale(1); 
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease forwards;
+}
+
+.animate-bounceIn {
+  animation: bounceIn 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+  animation-delay: 0.5s;
+}

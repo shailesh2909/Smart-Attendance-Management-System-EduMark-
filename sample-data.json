@@ -1,0 +1,171 @@
+{
+  "users": {
+    "example_admin_uid": {
+      "uid": "example_admin_uid",
+      "name": "System Administrator",
+      "email": "admin@pict.edu",
+      "role": "admin",
+      "approved": true,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "phone": "+91 20 2769 0062"
+    },
+    "example_faculty_uid": {
+      "uid": "example_faculty_uid", 
+      "name": "Dr. John Smith",
+      "email": "faculty@pict.edu",
+      "role": "faculty",
+      "approved": true,
+      "employeeId": "F001",
+      "designation": "Assistant Professor",
+      "assignedClasses": ["class_cs301", "class_cs302"],
+      "phone": "+91 9876543210",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    "example_student_uid": {
+      "uid": "example_student_uid",
+      "name": "Alice Johnson", 
+      "email": "student@pict.edu",
+      "role": "student",
+      "approved": true,
+      "studentId": "S001",
+      "year": "TE",
+      "department": "Computer Engineering",
+      "phone": "+91 9876543211",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    }
+  },
+  "classes": {
+    "class_cs301": {
+      "id": "class_cs301",
+      "name": "Data Structures and Algorithms",
+      "code": "CS301",
+      "department": "Computer Engineering",
+      "year": "TE",
+      "semester": "1",
+      "facultyId": "example_faculty_uid",
+      "facultyName": "Dr. John Smith",
+      "schedule": [
+        {
+          "day": "Monday",
+          "startTime": "09:00",
+          "endTime": "10:00",
+          "room": "Room 101"
+        },
+        {
+          "day": "Wednesday", 
+          "startTime": "11:00",
+          "endTime": "12:00",
+          "room": "Room 101"
+        }
+      ],
+      "students": ["example_student_uid", "student_uid_2", "student_uid_3"],
+      "totalSessions": 25,
+      "isActive": true,
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    "class_cs302": {
+      "id": "class_cs302",
+      "name": "Database Management Systems",
+      "code": "CS302", 
+      "department": "Computer Engineering",
+      "year": "TE",
+      "semester": "1",
+      "facultyId": "example_faculty_uid",
+      "facultyName": "Dr. John Smith",
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "startTime": "10:00",
+          "endTime": "11:00", 
+          "room": "Room 102"
+        },
+        {
+          "day": "Thursday",
+          "startTime": "14:00",
+          "endTime": "15:00",
+          "room": "Room 102"
+        }
+      ],
+      "students": ["example_student_uid", "student_uid_2", "student_uid_4"],
+      "totalSessions": 22,
+      "isActive": true,
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    }
+  },
+  "attendance": {
+    "attendance_001": {
+      "id": "attendance_001",
+      "classId": "class_cs301",
+      "className": "Data Structures and Algorithms",
+      "classCode": "CS301",
+      "facultyId": "example_faculty_uid",
+      "facultyName": "Dr. John Smith",
+      "date": "2024-01-15T09:00:00.000Z",
+      "sessionNumber": 1,
+      "topic": "Introduction to Arrays",
+      "duration": 60,
+      "records": [
+        {
+          "studentId": "example_student_uid",
+          "studentName": "Alice Johnson",
+          "status": "present",
+          "remarks": ""
+        },
+        {
+          "studentId": "student_uid_2",
+          "studentName": "Bob Wilson",
+          "status": "present",
+          "remarks": ""
+        },
+        {
+          "studentId": "student_uid_3", 
+          "studentName": "Charlie Brown",
+          "status": "absent",
+          "remarks": "Sick leave"
+        }
+      ],
+      "totalStudents": 3,
+      "presentCount": 2,
+      "absentCount": 1,
+      "lateCount": 0,
+      "createdAt": "2024-01-15T09:00:00.000Z"
+    },
+    "attendance_002": {
+      "id": "attendance_002",
+      "classId": "class_cs301",
+      "className": "Data Structures and Algorithms", 
+      "classCode": "CS301",
+      "facultyId": "example_faculty_uid",
+      "facultyName": "Dr. John Smith",
+      "date": "2024-01-17T09:00:00.000Z",
+      "sessionNumber": 2,
+      "topic": "Linked Lists - Introduction",
+      "duration": 60,
+      "records": [
+        {
+          "studentId": "example_student_uid",
+          "studentName": "Alice Johnson",
+          "status": "present",
+          "remarks": ""
+        },
+        {
+          "studentId": "student_uid_2",
+          "studentName": "Bob Wilson", 
+          "status": "late",
+          "remarks": "Arrived 10 minutes late"
+        },
+        {
+          "studentId": "student_uid_3",
+          "studentName": "Charlie Brown",
+          "status": "present",
+          "remarks": ""
+        }
+      ],
+      "totalStudents": 3,
+      "presentCount": 2,
+      "absentCount": 0,
+      "lateCount": 1,
+      "createdAt": "2024-01-17T09:00:00.000Z"
+    }
+  }
+}
